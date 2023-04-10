@@ -109,7 +109,7 @@ export default function Home() {
           description: "the world's most minimalist pomodoro timer",
           images: [
             {
-              url: "/og.png",
+              url: "https://pomodoro.eliot.sh/og.png",
               width: 1200,
               height: 630,
               alt: "pomodoro timer",
