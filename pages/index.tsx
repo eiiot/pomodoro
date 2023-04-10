@@ -60,6 +60,7 @@ export default function Home() {
         setTimer((timer) => timer - 1);
       }, 1000);
     } else if (!isRunning && timer !== 0) {
+      // @ts-expect-error
       clearInterval(interval);
     }
 
